@@ -1,0 +1,35 @@
+{
+  "Login": {
+    "title": "MITAC",
+    "login": "Sign in",
+    "login-text": "Account login",
+    "username": "username",
+    "usernameErrorTip": "Please input your username!",
+    "password": "password",
+    "passwordErrorTip": "Please input your Password!",
+    "rememberPWD": "remember me",
+    "autoLogin": "automatic logon"
+  },
+  "Plugin": {
+    "update_successed": "Updated successfully",
+    "update_success": "Updated successfully",
+    "restart_for_update": "Restart right now?",
+    "update_error": "Update failed, please try again later",
+    "is_newest": "Already the latest version",
+    "have_new_version": "Detected application updates, whether to upgrade?",
+    "update_content": "Update",
+    "app_size": "App Size",
+    "no_wifi_alert": "Currently not in the WIFI network, whether to continue the download operation?",
+    "not_found": "Not found",
+    "http_error1": "Connection failure",
+    "http_error2": "Server did not respond",
+    "http_error3": "Unknow error",
+    "http_error4": "Connect timeout,please try again later",
+    "http_error5": "Bad request,please try again later"
+  },
+  "alert": "Warning",
+  "error": "Error",
+  "cancel": "Cancel",
+  "confirm": "OK",
+  "autologin_err": "Local account name or password has expired, please re-verify"
+}

@@ -1,0 +1,35 @@
+{
+  "Login": {
+    "title": "MITAC",
+    "login": "登录",
+    "login-text": "账号登录",
+    "username": "账号",
+    "usernameErrorTip": "请输入你的账号名称",
+    "password": "密码",
+    "passwordErrorTip": "请输入你的账号密码",
+    "rememberPWD": "记住密码",
+    "autoLogin": "自动登录"
+  },
+  "Plugin": {
+    "update_successed": "已更新成功",
+    "update_success": "更新成功",
+    "restart_for_update": "马上重启应用体验最新版本？",
+    "update_error": "更新失败,请稍后重试",
+    "is_newest": "已经是最新版本",
+    "have_new_version": "检测到应用有更新,是否升级？",
+    "update_content": "更新内容",
+    "app_size": "应用大小",
+    "no_wifi_alert": "目前不是在WIFI网络,是否继续下载操作？",
+    "not_found": "未找到结果",
+    "http_error1": "连接服务器失败",
+    "http_error2": "服务器没响应",
+    "http_error3": "出现未定义连接错误",
+    "http_error4": "请求超时,请重试",
+    "http_error5": "请求失败,请稍后重试,或联系MIS！"
+  },
+  "alert": "警告",
+  "error": "错误",
+  "cancel": "取消",
+  "confirm": "確定",
+  "autologin_err": "本地账号名或密码已失效,账号验证失败,请重新验证"
+}

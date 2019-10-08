@@ -3,7 +3,12 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  baseUrl: 'http://localhost:8082/',
+  staticBaseUrl: 'http://webapi.mic.com.cn/',
+  companyID: 'MSL',
+  maxGrade: 1, // 记录该公司最高级部门的等级,如顺达是1
+  appVersion: '1.90', // 每次APP更新重新并上架到app商店前时请更新
 };
 
 /*

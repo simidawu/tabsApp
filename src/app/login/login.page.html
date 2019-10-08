@@ -1,0 +1,37 @@
+<ion-content color="primary">
+  <div class="content-container">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>{{'Login.title' | translate}}</ion-card-title>
+        <ion-card-subtitle>{{'Login.login-text' | translate}}</ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        <form nz-form [formGroup]="LoginForm" (ngSubmit)="login()">
+          <nz-form-item>
+            <nz-form-control [nzErrorTip]="usernameErrorTip">
+              <nz-input-group nzPrefixIcon="user">
+                <input type="text" nz-input formControlName="userName" placeholder="{{'Login.username' | translate}}" />
+              </nz-input-group>
+            </nz-form-control>
+          </nz-form-item>
+          <nz-form-item>
+            <nz-form-control [nzErrorTip]="passwordErrorTip">
+              <nz-input-group nzPrefixIcon="lock">
+                <input type="password" nz-input formControlName="password" placeholder="{{'Login.password' | translate}}" />
+              </nz-input-group>
+            </nz-form-control>
+          </nz-form-item>
+          <nz-form-item>
+            <label nz-checkbox formControlName="rememberPWD">{{'Login.rememberPWD' | translate}}</label>
+            <label nz-checkbox formControlName="autoLogin">{{'Login.autoLogin' | translate}}</label>
+          </nz-form-item>
+          <nz-form-item>
+            <nz-form-control>
+              <button nz-button nzBlock nzValue="large" class="login-form-button" [nzType]="'primary'">{{'Login.login' | translate}}</button>
+            </nz-form-control>
+          </nz-form-item>
+        </form>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>

@@ -1,0 +1,35 @@
+{
+  "Login":{
+    "title":"MITAC",
+    "login":"登錄",
+    "login-text": "賬號登錄",
+    "username":"賬號",
+    "usernameErrorTip":"請輸入你的賬號名稱！",
+    "password":"密碼",
+    "passwordErrorTip":"請輸入你的賬號密碼",
+    "rememberPWD":"記住密碼",
+    "autoLogin":"自動登錄"
+  },
+  "Plugin": {
+    "update_successed": "已更新成功",
+    "update_success": "更新成功",
+    "restart_for_update": "馬上重啟應用體驗最新版本？",
+    "update_error": "更新失敗,請稍候重試",
+    "is_newest": "已經是最新版本",
+    "have_new_version": "檢測到應用有更新，是否升級？",
+    "update_content": "更新內容",
+    "app_size": "應用大小",
+    "no_wifi_alert": "目前不是在WIFI網絡，是否繼續下載操作？",
+    "not_found": "未找到結果",
+    "http_error1": "連接服務器失敗",
+    "http_error2": "服務器沒響應",
+    "http_error3": "出現未定義連接錯誤",
+    "http_error4": "請求超時，請重試！",
+    "http_error5": "請求失敗，請稍候重試，或聯繫MIS！"
+  },
+  "alert": "警告",
+  "error": "錯誤",
+  "cancel": "取消",
+  "confirm": "確定",
+  "autologin_err": "本地賬號名或密碼已失效，賬號驗證失敗，請重新驗證！"
+}
