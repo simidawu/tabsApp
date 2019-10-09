@@ -44,7 +44,6 @@ export class LoginPage {
     });
 
     this.store$.select('userReducer').subscribe((user: UserState) => {
-      console.log(user, 2);
       if (user && user.nickname) {
         this.LoginForm.controls['userName'].setValue(user.username);
         this.LoginForm.controls['password'].setValue(user.password);
@@ -76,7 +75,6 @@ export class LoginPage {
 
   async login() {
     const value = this.LoginForm.value;
-    console.log(value);
 
     const loginSuccess = await this.loginService.login(
       value.userName.toLowerCase(),
@@ -92,7 +90,6 @@ export class LoginPage {
         this.router.navigateByUrl(urlParams ? urlParams : '/modules');
         localStorage.removeItem('lastURL');
       } else {
-        console.log('tabs');
         this.router.navigate(['/tabs']);
       }
     } else {

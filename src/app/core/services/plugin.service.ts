@@ -175,13 +175,11 @@ export class PluginService {
     const codePush = this.codePush;
     codePush
       .sync({}, progress => {
-        // console.log(`Downloaded ${progress.receivedBytes} of ${progress.totalBytes}`);
         this.updateProgress.next(
           Math.floor(progress.receivedBytes / progress.totalBytes * 100),
         );
       })
       .subscribe(async syncStatus => {
-        // console.log('Sync Status1: ', syncStatus);
         if (syncStatus === 0) {
         }
         switch (syncStatus) {

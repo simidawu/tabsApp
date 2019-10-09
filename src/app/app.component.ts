@@ -70,18 +70,14 @@ export class AppComponent {
   }
 
   async appInit() {
-    console.log(1);
     await this.localStorageService.init();
     window['localStorage2'] = this.localStorageService;
     const appVersion = await localStorage2.getItem2('appVersion');
     if (!appVersion) {
       await localStorage2.setItem2('appVersion', environment.appVersion);
     }
-    // console.log(this.user);
     if (!this.user || !this.user.username || !this.user.password) { 
-      console.log(2);
       const user = await this.localStorageService.getItem2('currentUser');
-      // console.log(user, 1);
       if (user) {
         if (user.hasOwnProperty('rememberPWD') && !user.rememberPWD) {
           user.password = '';
